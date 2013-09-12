@@ -1,3 +1,3 @@
-# Jenny's Portfolio
+# Jenny's Amazing Portfolio
 
 My amazing portfolio website!
