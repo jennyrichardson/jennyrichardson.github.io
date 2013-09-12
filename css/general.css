@@ -1,0 +1,86 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+@media only screen and (min-width: 187em) {
+
+html {
+		font-size: 1.5em;
+	 }
+}
+
+h1 {
+	padding: 0px 0px 0px 20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3em;
+	line-height: 1.2em;
+	color: #FF8F12;
+}
+	
+p {
+	padding: 0px 0px 0px 20px;
+	color: #000;
+	font-family: Helvetica;
+	font-size: 80%;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+ 
+.logo {
+	padding: 0px 20px 0px 20px;
+}
+ 
+#icons img {
+	padding: 0px 0px 0px 20px;
+}
+
+@media only screen and (min-width: 32em) {
+
+h1 {
+	padding: 0px 0px 0px 20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height: 1.2em;
+	color: #FF8F12;
+	width: 500px
+	}
+	
+p {
+	padding: 0px 0px 0px 20px;
+	color: #000;
+	font-family: Helvetica;
+	font-size: 80%;
+	line-height: 20px;
+	margin-bottom: 15px;
+	width: 450px;
+	}
+}
+
+@media only screen and (max-width: 17em) {
+
+h1 {
+	padding: 0px 0px 0px 10px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #FF8F12;
+	width: 220px
+	}
+	
+p {
+	padding: 0px 0px 0px 10px;
+	color: #000;
+	font-family: Helvetica;
+	font-size: 80%;
+	line-height: 20px;
+	margin-bottom: 15px;
+	width: 218px;
+	}
+
+#icons img {
+	padding: 0px 0px 0px 10px;
+	width: 50px;
+	}
+}
+
