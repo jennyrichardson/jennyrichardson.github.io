@@ -11,6 +11,10 @@ html {
 	 }
 }
 
+body {
+	background-repeat: no-repeat;
+}
+
 h1 {
 	padding: 0px 0px 0px 20px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -18,7 +22,24 @@ h1 {
 	line-height: 1.2em;
 	color: #FF8F12;
 }
-	
+
+.navigation { 
+	text-decoration: none;
+	padding: 10px 0px 20px 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3em;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color: #F90;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #000;
+}
+		
 p {
 	padding: 0px 0px 0px 20px;
 	color: #000;
@@ -31,10 +52,11 @@ p {
 .logo {
 	padding: 0px 20px 0px 20px;
 }
- 
+
 #icons img {
 	padding: 0px 0px 0px 20px;
 }
+
 
 @media only screen and (min-width: 32em) {
 
@@ -78,7 +100,7 @@ p {
 	width: 218px;
 	}
 
-#icons img {
+.icons img {
 	padding: 0px 0px 0px 10px;
 	width: 50px;
 	}
